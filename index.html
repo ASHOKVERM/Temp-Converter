@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+          <title>Temperature Converter</title>
+          <link rel="icon" type="image/x-icon" href="./Flat-Icons.com-Square-Temperature.32.png">
+          <link rel="stylesheet" type="text/css" href="./temp.css">  
+
+
+    </head>
+          
+    <body>
+      <div id="main">
+
+        <form id="form" action="">
+
+        <label id="temperature">Enter Temperature:</label><br>
+        <input type="number" id="temp"><br><br><br>
+
+        <label id="choose">From</label><br>
+        <select name="temps" id="unit1">
+          <option value="">Select an option</option>
+          <option value="celcius">Celcius</option>
+          <option value="fahrenheit">Farenheight</option>
+        </select><br><br><br>
+
+
+        
+        <label id="choose">To</label><br>
+        <select name="temps" id="unit2">
+          <option value="">Select an option</option>
+          <option value="celcius">Celcius</option>
+          <option value="fahrenheit">Farenheight</option>
+        </select>
+
+        <input type="submit" id="button" value="Convert"><br><br><br>
+
+        </form>
+
+        <label id="temperature">Result</label><br>
+        <input type="text" id="result" readonly>
+
+      </div>
+    </body>
+    <script src="./temp.js"></script> 
+</html>
